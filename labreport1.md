@@ -12,4 +12,6 @@
     - To be able to connect to the class server we must have our CSE 15L account ready
     - Finding your CSE 15L account is simple and all it takes is going to the UCSD account lookup page [Link](https://sdacs.ucsd.edu/~icc/index.php)
     - The account lookup page looks like this: <img width="1440" alt="Screen Shot 2023-01-15 at 2 04 54 AM" src="https://user-images.githubusercontent.com/122497278/212534733-49b410e3-231c-4779-8899-ea8ff9d15b62.png">
- * Once the account 
+ * Once the account details have been found and confirmed, open up VScode
+ * Open up a new terminal within VScode where we will provide information to login into the server 
+ * 
