@@ -34,6 +34,7 @@
    - cat /home/linux/ieng6/cs15lwi23/public/hello.txt
   * Each command has its own use and purpose 
   * A command that I tested out was cd 
+     - The cd command in term, changes the current directory to the given path 
   <img width="1433" alt="Screen Shot 2023-01-11 at 4 07 45 PM" src="https://user-images.githubusercontent.com/122497278/212604537-3876df6d-5cd6-4282-9b37-aba2d98eead9.png">
 
 
