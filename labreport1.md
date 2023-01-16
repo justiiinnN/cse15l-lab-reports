@@ -1,6 +1,6 @@
 # Lab Report 1
 ---
-### Downloading VScode 
+##Downloading VScode 
   * A link to the website where VScode can be downloaded is provided ([Link](https://code.visualstudio.com/))
     - From the link, VScode can be downloaded by clicking the big blue box that says "Download"
     <img width="1440" alt="Screen Shot 2023-01-14 at 11 59 05 PM" src="https://user-images.githubusercontent.com/122497278/212529444-4864f92c-8113-4821-8b31-cc571a4d3e67.png">
@@ -20,7 +20,7 @@
  * If you are prompted with "Are you sure you want to continue connecting (yes/no/[fingerprint])?", type yes and press enter
  * After typing yes, type in the password to your CSE15L account and if correct, you should be connected to the server! 
 ---
-### Trying some commands 
+#### Trying some commands 
  * Once in the sever, a variety of different commands are at the users disposal
  * Here are some examples of commands that can be used: 
    - cd
