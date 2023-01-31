@@ -10,10 +10,14 @@ Two screenshots will be shown to demonstrate using /add-message.
   ![image](https://user-images.githubusercontent.com/122497278/215619228-d0d4338b-35cd-4300-9650-157fcb11e187.png)
     - The method being called in screenshot 1 is public String handleRequest.  
     - Relevant arguments to the method is the URI which in term is built of necessary characters that contains what is needed to find the method (StringServer) and ultimately the URL link (https://localhost:2100). StringServer is coded to display a string if the substring of **/add-message?s=** is inputed into the link (ex: https://localhost:2100/add-message?s=). To satisfy the codes requirement, a user must put in a word and or message (known as a string) after the equals sign in order to display that input. To exemplify, https://localhost:2100/add-message?s=hello displays the message "hello" on the website which is shown in the screenshot. Why this works is because after the s=, the code reads the users input as a string. 
-    - Based on the request of the user made by inputting a string after the s=, the method checks the conditions and implements the paramters to show the user input. The empty string in place of paramter 2 is updated to what the user 
+    - Based on the request of the user made by inputting a string after the s=, the method checks the conditions and implements the paramters to show the user input. The first parameter checks if there is an "s" and if there is the second parameter continues. The second parameter is the user's input string.
+    The created empty string is added to paramter 2 and is updated to what the user had intended. 
+  - **The second screenshot**: 
+  <img width="1132" alt="image" src="https://user-images.githubusercontent.com/122497278/215638691-3e16a46a-4759-45a2-b94f-0cc453dcc7dc.png">
+
 
 ### Part 2 
 
 ### Part 3
-In lab week 3, I would say that I learned quite alot. What I had learned was the basics of creating test cases that work to highlight the functionality of methods within code. Previously, I had no prior knowledge as to self testing code due to graders doing that for us students. After the lab, I applied my new knowledge to self test whenever I create code through creating my own hidden test cases and public tests cases all in which to sight bugs in code.
+In lab week 3, I would say that I learned quite alot. What I had learned was the basics of creating test cases that work to highlight the functionality of methods within code. Previously, I had no prior knowledge as to self testing code due to graders doing that for us students. After the lab, I applied my new knowledge to self test whenever I create code through creating my own hidden test cases and public tests cases all in which to sight bugs within code.
 
