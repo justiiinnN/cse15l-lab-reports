@@ -39,7 +39,7 @@ Two screenshots will be shown to demonstrate using /add-message.
       int[] input1 = { 3, 4, 5, 6 }; 
       assertArrayEquals(new int[] { 6, 5, 4, 3 }, ArrayExamples.reversed(input1)); 
      }
-     ``` 
+     
    - An input that wouldn't induce a failure is an empty array, why this would pass is because there is nothing in the array to rearrange so the code would run fine with no errors. 
    
     @Test 
@@ -47,7 +47,7 @@ Two screenshots will be shown to demonstrate using /add-message.
       int[] input1 = { }; 
       assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1)); 
      }
-     ``` 
+   
    - The symptom as the output of running the tests are shown: 
    - Non failure: 
       ![image](https://user-images.githubusercontent.com/122497278/215658685-b78d4342-2f13-428f-8b1c-3c4f152cee43.png)
