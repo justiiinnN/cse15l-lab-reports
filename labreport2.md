@@ -55,6 +55,7 @@ Two screenshots will be shown to demonstrate using /add-message.
    - Failure: 
       ![image](https://user-images.githubusercontent.com/122497278/215658867-bbeefb4a-cd28-43bf-baa9-90ec0d49f260.png)
    - Here are the before and after code changes to fix the static int[]reversed(int[] arr) method: 
+      
       - Before: 
      
          ```
