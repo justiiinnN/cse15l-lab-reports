@@ -34,22 +34,44 @@ Two screenshots will be shown to demonstrate using /add-message.
    - A failure inducing input is shown below: 
    
     @Test 
-    public void reverseInPlace(){
-      int[] input1 = { 0, 1, 2, 3 }; 
-      ArrayExamples.reverseInPlace(input1); 
-      assertArrayEquals(new int[] { 3, 2, 1, 0 }, input1); 
+    public void testReversed1(){
+      int[] input1 = { 3, 4, 5, 6 }; 
+      assertArrayEquals(new int[] { 6, 5, 4, 3 }, ArrayExamples.reversed(input1)); 
      }
-    }
    - An input that wouldn't induce a failure is an empty array, why this would pass is because there is nothing in the array to rearrange so the code would run fine with no errors. 
    
     @Test 
-    public void reverseInPlace(){
-      int[] input1 = {}; 
-      ArrayExamples.reverseInPlace(input1); 
-      assertArrayEquals(new int[] {}, input1); 
+    public void testReversed(){
+      int[] input1 = { }; 
+      assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1)); 
      }
-    }
-   - 
+   - The symptom as the output of running the tests are shown: 
+   - Non failure: 
+      ![image](https://user-images.githubusercontent.com/122497278/215658685-b78d4342-2f13-428f-8b1c-3c4f152cee43.png)
+
+   - Failure: 
+      ![image](https://user-images.githubusercontent.com/122497278/215658867-bbeefb4a-cd28-43bf-baa9-90ec0d49f260.png)
+   - Here are the before and after code changes to fix the static int[]reversed(int[] arr) method: 
+      - Before: 
+         ```
+        static int[] reversed(int[] arr){
+          int[] newArray = new int[arr.length]; 
+          for(int i = 0; i < arr.length; i += 1){
+            arr[i] = newArray[arr.length - i - 1]; 
+          }
+         return arr; 
+        }
+      - After: 
+      ```
+        static int[] reversed(int[] arr){
+          int[] newArray = new int[arr.length];
+          for(int i = 0; i < arr.length; i += 1) {
+            newArray[i] = arr[arr.length - i - 1];
+            }
+           return newArray;
+          }
+    - The fixes that I made adresss the issues because the original code for the method had assigned the elements to the incorrect array. The new array was being assigned to the original array which was messing up the elements. Simply assigning the elements to a different array had fixed the issue and made it so that the method functioned how it was supposed to (reversing the elements). 
+ 
 ### Part 3
 In lab week 3, I would say that I learned quite alot. What I had learned was the basics of creating test cases that work to highlight the functionality of methods within code. Previously, I had no prior knowledge as to self testing code due to graders doing that for us students. After the lab, I applied my new knowledge to self test whenever I create code through creating my own hidden test cases and public tests cases all in which to sight bugs within code.
 
