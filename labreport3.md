@@ -114,6 +114,6 @@ The command that I will be choosing is *grep* and I will be demonstrating differ
     written_2/travel_guides/berlitz2/WhatToFrance.txt
     written_2/travel_guides/berlitz2/WhereToFrance.txt
     ``` 
-   - *grep -r "string" filename*, comes in handy when the user is exclusively looking for files with a specific string combination and not all the files that include the letter. 
+   - *grep -r "string" filename*, is useful when the user is trying to accomplish a recursive search with the goal of finding all the files with the users specific string input. 
 
 
