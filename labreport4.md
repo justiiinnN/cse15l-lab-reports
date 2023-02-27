@@ -55,7 +55,7 @@
     ```  
    - After editing the code snippet I used the command, ***ctrl + o***. 
      - The ctrl + o command saves the edits made inside nano.  
-     - Once saved, press and then 
+     - Once saved, press and then `<enter>`
    
    
    
