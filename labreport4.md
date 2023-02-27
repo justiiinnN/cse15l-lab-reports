@@ -37,8 +37,28 @@
     ![image](https://user-images.githubusercontent.com/122497278/221475016-6579e916-5eda-4af0-9ec0-ce604c745bad.png)
     - Since the code that has the error is in the ListExamples.java file, we nano to it in order to find and fix the flaw. 
     - The error was in one of the while loops. 
-     - the wrong index was being added. 
-  
+      - the wrong index was being added. 
+    ```
+    while(index2 < list2.size()){
+     result.add(list2.get(index2)); 
+     index1 += 1; 
+    } 
+    ```  
+   - To fix the error, I had to change the index1 to index2. 
+   - The revised code snippet: 
+   
+    ```
+    while(index2 < list2.size()){
+     result.add(list2.get(index2)); 
+     index2 += 1; 
+    } 
+    ```  
+   - After editing the code snippet I used the command, ***ctrl + o***. 
+     - The ctrl + o command saves the edits made inside nano.  
+     - Once saved, press and then 
+   
+   
+   
  - Part 8: 
 
 
