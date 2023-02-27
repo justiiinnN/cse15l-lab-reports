@@ -33,8 +33,13 @@
     - It is time to fix the error within the code. This part is the most challenging! 
     - First, we must nano into the file to see the entirety of the code, ***nano (file)***. 
     ![image](https://user-images.githubusercontent.com/122497278/221474546-13c4010c-4a0b-4b15-ac90-e77bde7ed49a.png)
-    - Doing nano props up the code in which the user could edit. 
+    - Doing nano props up the code in which the user could edit. Nano specifically is a terminal based file/text editor.  
     ![image](https://user-images.githubusercontent.com/122497278/221475016-6579e916-5eda-4af0-9ec0-ce604c745bad.png)
+    - Since the code that has the error is in the ListExamples.java file, we nano to it in order to find and fix the flaw. 
+    - The error was in one of the while loops. 
+     - the wrong index was being added. 
+  
+ - Part 8: 
 
 
 
