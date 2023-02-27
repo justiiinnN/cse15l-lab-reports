@@ -73,9 +73,8 @@
     - The last task is to commit and push the changes made to our gitgub account. 
     - With the revised repository we need to add the file we changed to our github account using `git add ListExamples.java`
       - This command adds the file that the user prompts in place of the old one 
-    -  
+    -  Followed by the git add command is the command to commit 
+       - `git commit -m "name"`, allows us to commit the file we just added. 
     ![image](https://user-images.githubusercontent.com/122497278/221488641-53bbbc59-c4e0-4c38-8627-0554f356009e.png)
-    -   
-
-up 6 to get junit after fixing code (javac) then presed enter
-up 5 times to get junit (java) then pressed enter 
+    - After the commit has been completed, all we need to do now is push it to our account using, `git push`. A message will show that says the push has been completed and the account of your github will show. 
+    ![image](https://user-images.githubusercontent.com/122497278/221496665-f416fbcd-4478-4ab0-98fa-cf6ac6a3b3f5.png)
