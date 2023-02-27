@@ -34,6 +34,8 @@
     - First, we must nano into the file to see the entirety of the code, ***nano (file)***. 
     ![image](https://user-images.githubusercontent.com/122497278/221474546-13c4010c-4a0b-4b15-ac90-e77bde7ed49a.png)
     - Doing nano props up the code in which the user could edit. 
+    ![image](https://user-images.githubusercontent.com/122497278/221475016-6579e916-5eda-4af0-9ec0-ce604c745bad.png)
+
 
 
 up 6 to get junit after fixing code (javac) then presed enter
