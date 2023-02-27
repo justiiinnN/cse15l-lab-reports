@@ -14,8 +14,9 @@
     - This step doesn't have a real task but asks to start the timer to test how fast steps 4-9 could be done. 
  
  - Part 4: 
-    - The real task begins now. From the temrinal, we will first loggin to our ieng6 account. 
-    - 
+    - The real task begins now. From the temrinal, we will first loggin to our ieng6 account.
+    ![Screenshot (642)](https://user-images.githubusercontent.com/122497278/221461456-148909d2-49d5-4734-a4d1-4672daa96e61.png)
+
 
 
 
