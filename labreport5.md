@@ -68,7 +68,7 @@ The lab report in which I will be discussing is lab report 3. Lab report 3 to me
     written_2/travel_guides/berlitz2
     ```
     - The `find -mtime` commands allows the user to see the changes that have been made to a file and or directory within a certain amount of days. The, `find (directory) -mtime -(day) -type d` command allows the user to see the directories in which changes have been made to within a certain span of days. The, `find (directory) -mtime -(day) -type f` command shows which files had been changed based on the amount of days the user puts. 
-  - Example 3: The third command is, `find -user` 
+  - Example 3: The third command is, `find -user`. 
     - Input 1: 
     ```
     find written_2/ -type d -user jtdng
@@ -111,7 +111,8 @@ The lab report in which I will be discussing is lab report 3. Lab report 3 to me
     written_2/non-fiction/OUP/Castro/chB.txt
     written_2/non-fiction/OUP/Castro/chC.txt
     ```
-    - The `find -user` command lets the user find the files and or directories owned by that user specifc person. To find the directories that the user owns, the command, `find (directory) -type d -user (username)` shows all directories the user has. Because I haad specified which directories I owned in the written_2 directory, it showed directories in written_2. If I wanted to see all the directories I owned on my personal computer, the user could just put "." inplace of written_2 to see what directories that own. The, `find (directory) -type f -user (username)` command shows the user what files they own. Like the other command if the user doesnt specify which directory they want to see the files in which they own, it will show all files that the user owns. Since I specified the files in which I own in written_2 it only shows the files in written_2. 
+    - The `find -user` command lets the user find the files and or directories owned by that user specifc person. To find the directories that the user owns, the command, `find (directory) -type d -user (username)` shows all directories the user has. Because I haad specified which directories I owned in the written_2 directory, it showed directories in written_2. If I wanted to see all the directories I owned on my personal computer, the user could just put "." inplace of written_2 to see what directories that own. The, `find (directory) -type f -user (username)` command shows the user what files they own. Like the other command if the user doesnt specify which directory they want to see the files in which they own, it will show all files that the user owns. Since I specified the files in which I own in written_2 it only shows the files in written_2.
+ - Example 4, the last command is, `find -empty`.
     
   
     
