@@ -140,7 +140,7 @@ The lab report in which I will be discussing is lab report 3. Lab report 3 to me
     written_2/travel_guides/berlitz1/WhereToItaly.txt
     written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
     ```
-    - The `find -size` command is used to find the specified size of files that the user is trying to find. To use this command, the user must input a specific number followed by the byte they are searching for (`find (directory) -type f -size +(size)`). In the inputs, the k represents kilobytes, so the command searched for files with a kilobyte of the desired size. 
+    - The `find -size` command is used to find the specified size of files that the user is trying to find. To use this command, the user must input a specific number followed by the byte they are searching for, `find (directory) -type f -size +(size)`. In the inputs, the k represents kilobytes, so the command searched for files with a kilobyte of the desired size. 
     
   
     
